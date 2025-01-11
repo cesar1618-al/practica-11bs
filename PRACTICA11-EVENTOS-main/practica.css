@@ -1,0 +1,61 @@
+html{
+    min-height: 100% ;
+    min-width: 100% ;
+    background-image: linear-gradient(dodgerblue, white);
+}
+
+h1{
+    font-size: 52px;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    color:aliceblue;
+    font-family: sans-serif;
+    padding-left: 20px;
+    text-shadow: 2px 2px black;
+}
+
+#Contenido{
+    min-width: 100% ;
+    display: inline-flex;
+    justify-content: space-around;
+    color: floralwhite;
+    text-shadow: 1px 1px dimgray;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+input{
+    background: none;
+    border: none;
+    padding-top: 50px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+label{
+    color: cornflowerblue;
+}
+
+footer{
+    color: dodgerblue;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width:100%;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+    color:aliceblue;
+}
